@@ -1,0 +1,76 @@
+body
+{
+	background-color: lightblue;
+	color: black;
+	font-family: "Times New Roman", courier, monospace;
+	font-weight: normal;
+	line-height: 1.4;
+    font-size: 16px;
+    max-width: 36em;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 8px;
+    text-align: justify;
+
+}
+
+
+h1 
+{
+	text-align: center;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+  
+
+}
+
+h2
+{
+	color: #161bd2;
+	font-size: 22px;
+	font-weight: inherit;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+	text-align: justify;
+
+}
+
+h3
+{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+h4
+{
+	font-size: 16px;
+	font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 32px;
+    margin-bottom: 6px;
+
+}
+
+p
+{
+	margin-top: 0;
+	margin-bottom: 16px;
+
+}
+
+em
+{
+	color: red;
+	display: block;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+ul
+{
+
+}
