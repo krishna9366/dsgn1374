@@ -27,8 +27,8 @@ h1 {
     font-size: 15em;
     position: absolute;
     margin: 0;
-    top: 0;
-    right: 1em;
+    top: 30;
+    bottom: 30;
     opacity: 0.75;
     filter: blur(6px);
 }
