@@ -1,0 +1,84 @@
+/* Interview */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #00ceff;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 16px;
+	margin: 0.25em;
+
+}
+
+
+
+
+.container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+
+@media (min width: 40em) {
+	.container{
+		grid-templete-colums: 50% 50%;
+	}
+}
+
+
+
+.Q {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 
+	padding: 0.5;
+	margin: 0.5em;
+	
+
+}
+
+
+
+.A {
+	font-family: 'Fira Sans', sans-serif;
+	font-family: 'Sansita Swashed', cursive;
+	font-family: 'Teko', sans-serif;
+	padding: 0.5;
+	margin-bottom: 5em;
+}
+
+
+h2, p {
+	margin: 0 0 1em 0;
+	font-size: 1em;
+	padding: 0;
+	line-height: 1.5;
+	vertical-align: baseline;
+
+}
+
+
+h1 {
+
+	font-size: 2em;
+	font-weight: normal;
+	border: 1px solid;
+	display: inline-grid;
+	border-radius: 0.5em;
+
+}
+
+header {
+	text-align: center;
+	margin: 5em;
+
+}
+
+
+
+
+
