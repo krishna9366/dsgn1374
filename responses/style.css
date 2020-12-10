@@ -1,0 +1,154 @@
+/* Responses */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	line-height: 1.4;
+	font-size: 18px;
+	margin: 0.3em;
+	padding: 0;
+}
+
+img {
+	max-width: 80%;
+	height: auto;
+	margin: 90px 1em 1em 1em;
+	right: 1em;
+	cursor: move;
+	align-content: center;
+
+
+}
+
+
+
+/* Typography */
+
+h1 {
+	font-size: 2em;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 90px 0 1em 0;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: normal;
+
+}
+
+
+h3 {
+	font-size: 3em;
+	font-weight: normal;
+}
+
+
+p {
+	margin: 0 0 1em 0;
+	line-height: 2em;
+	font-family: serif;
+	text-align: justify;
+
+}
+
+
+a {
+	color: blue;
+	text-decoration: underline;
+	transition: all 0.3s;
+}
+
+a:hover {
+	color: purple;
+	text-decoration: none;
+}
+
+.button {
+	border: 1px solid blue;
+	border-radius: 2em;
+	padding: 0.25em 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	margin: 0 0 1em 0;
+}
+
+.button:hover {
+	background-color: purple;
+	color: white;
+}
+
+
+
+
+/* Grid */
+
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	align-content: center;
+	min-height: 100vh;
+}
+
+.items {
+	padding: 0.5em;
+}
+
+@media (min-width: 40em) {
+	.grid {
+		grid-template-columns: 50% 50%;
+	}
+}
+
+
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: lightblue;
+	width: 200%;
+	height: 5em;
+}
+
+main {
+	margin: 1em;
+
+}
+
+nav {
+	display: grid;
+	grid-template-columns: repeat(3,auto);
+	width: 84em;
+	height: 3em;
+	background-color: yellow;
+	align-items: center;
+	line-height: 3em;
+	text-align: center;
+
+}
+
+nav a {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	transition: color 0.3s;
+
+}
+
+nav a:hover {
+	color: white;
+
+}
+
+.active {
+	color: blue;
+
+}
